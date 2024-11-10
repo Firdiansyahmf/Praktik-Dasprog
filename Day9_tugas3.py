@@ -2,6 +2,7 @@
 Nama : Mohamad Firdiansyah
 NIM  : 2402041
 Kelas : 1A
+Universitas Pendidikan Indonesia
 """
 # Program menghitung waktu berlari dan selesai berlari
 def waktu():
