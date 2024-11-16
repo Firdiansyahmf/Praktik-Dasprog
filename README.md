@@ -7,9 +7,11 @@ Pembelajaran RPL di UPI Cibiru, Semester 1
 ### Cara install library Numpy di Linux
 
    1. Masuk ke folder proyek.
-   2. Buka Terminal dan ketikkan:
-      python3 -m venv myenv # Membuat folder myenv
-      source myenv/bin/activate # Mengaktifkan myenv
-      pip install numpy # Menginstall numpy di myenv
-   3. Terakhir, ketikkan deactivate untuk keluar dari myenv:
+   2. Buka Terminal dan baut folder myenv dengan perintah berikut:
+      python3 -m venv myenv
+   3. Aktifkan myenv:
+      source myenv/bin/activate
+   4. Menginstal numpy di myenv:
+      pip install numpy 
+   5. Mengakhiri sesi myenv:
       deactivate
