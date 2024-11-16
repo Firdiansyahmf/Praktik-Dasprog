@@ -1,9 +1,9 @@
 # Praktik-Dasprog
 Pembelajaran RPL di UPI Cibiru, Semester 1
 
-# # Alat
+## Alat
 
-# # # 
+### 
 Cara install library Numoy di Linux:
 1. Masuk ke folder proyek.
 2. Buka Terminal dan ketikkan:
