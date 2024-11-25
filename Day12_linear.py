@@ -13,6 +13,6 @@ arr = [10, 15, 30, 70, 80, 60, 20, 90, 40]
 target = 20
 hasil = linearSearch(arr, target)
 if hasil != -1:
-    print(f"Linear Search: Elemen diukan di index {hasil}")
+    print(f"Linear Search: Elemen ditemukan di index {hasil}")
 else:
-    print("Linear Search: Elemen tidak diukan")
+    print("Linear Search: Elemen tidak ditemukan")

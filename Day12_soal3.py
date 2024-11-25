@@ -24,9 +24,9 @@ array = [
 target = 60
 hasil = linearSearch(array, target)
 if hasil != -1:
-    print(f"Linear Search: Elemen diukan di index {hasil}")
+    print(f"Linear Search: Elemen ditemukan di index {hasil}")
 else:
-    print("Linear Search: Elemen tidak diukan")
+    print("Linear Search: Elemen tidak ditemukan")
 
 endTimeLinear = time.time()
 print(f"Waktu eksekusi Linear Search\t: {endTimeLinear - startTimeLinear:.6f} detik\n")
@@ -55,9 +55,9 @@ array = [
 target = 60
 hasil = binarySearch(sorted(array), target, 0, len(array) - 1)
 if hasil != -1:
-    print(f"Binary Search: Elemen diukan di index {hasil}")
+    print(f"Binary Search: Elemen ditemukan di index {hasil}")
 else:
-    print("Binary Search: Elemen tidak diukan")
+    print("Binary Search: Elemen tidak ditemukan")
 endTimeBinary = time.time()
 print(f"Waktu eksekusi Binary Search\t: {endTimeBinary - startTimeBinary:.6f} detik\n")
 

@@ -19,6 +19,6 @@ arr = [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]
 target = 23
 hasil = binarySearch(sorted(arr), target, 0, len(arr) - 1)
 if hasil != -1:
-    print(f"Binary Search: Elemen diukan di index {hasil}")
+    print(f"Binary Search: Elemen ditemukan di index {hasil}")
 else:
-    print("Binary Search: Elemen tidak diukan")
+    print("Binary Search: Elemen tidak ditemukan")

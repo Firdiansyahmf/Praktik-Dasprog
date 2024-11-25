@@ -19,6 +19,6 @@ arrBarang = [
 target = input("Masukkan nama barang: ")
 hasil = linearSearch(arrBarang, target)
 if hasil != -1:
-    print(f"Linear Search: Elemen diukan di index {hasil}")
+    print(f"Linear Search: Elemen ditemukan di index {hasil}")
 else:
-    print("Linear Search: Elemen tidak diukan")
+    print("Linear Search: Elemen tidak ditemukan")
